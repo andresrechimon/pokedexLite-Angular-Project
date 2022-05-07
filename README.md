@@ -3,14 +3,14 @@
 - Reusable components (like main or header).
 - Routing for all the app + lazyloading.
 - Based on modularization.
-- Services
-- Interfaces
+- Services.
+- Interfaces.
 - Directives such as *ngIf (try to eliminate all the pokemons).
 - Enviroment variables (baseURL).
 - Modules and components organized separatly, ordered alphabetic.
 - In my opinion, some .sccs doesn't deserve a all file, so i keep 'em as inline styles.
 - Angular Material (it's not the one i handle best, but i find it interesting so I took the opportunity to practice).
-- SweetAlert2 (There are custom alert all over the app, being my fav the one you got by pressing "Atrápalos ya!" in the register page)
+- SweetAlert2 (There are custom alert all over the app, being my fav the one you got by pressing "Atrápalos ya!" in the register page).
 
 **FUNCTIONS**
 - If no user has logged in, the application navigates to the login page (it has a minor validation if u don't input the correct user and pass).
