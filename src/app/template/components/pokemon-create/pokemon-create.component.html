@@ -1,0 +1,43 @@
+<app-header></app-header>
+<div class="container">
+    <mat-toolbar>
+        <span id="title">{{action}} Pokemon Estático</span>
+    </mat-toolbar>
+    
+    <mat-card style="margin-top: 10px;border: 1px solid;" class="lg">
+        <form [formGroup]="myForm">
+            <mat-grid-list cols="4" rowHeight="70px">
+                <mat-grid-tile [colspan]="4" [rowspan]="1" [style.background]="'lightpink'">
+                    <mat-form-field class="width">
+                        <mat-label>Pokemon</mat-label>
+                        <input matInput autocomplete="off" formControlName="name">
+                    </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile [colspan]="4" [rowspan]="1" [style.background]="'lightpink'">
+                    <mat-form-field class="width">
+                        <mat-label>Tipo</mat-label>
+                        <input matInput autocomplete="off"  formControlName="type">
+                    </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile [colspan]="4" [rowspan]="1" [style.background]="'lightpink'">
+                    <mat-form-field class="width">
+                        <mat-label>Evolucion</mat-label>
+                        <input matInput autocomplete="off"  formControlName="evolve">
+                    </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile [colspan]="4" [rowspan]="1" [style.background]="'lightpink'">
+                    <button 
+                    type="submit" 
+                    mat-stroked-button 
+                    color="warn" 
+                    class="btn-c" 
+                    style="margin-right: 10px;"
+                    [disabled]="myForm.invalid || myForm.pristine"
+                    (click)="addPokemon()" 
+                    >{{action | uppercase}} POKEMON</button>
+                    <button mat-stroked-button color="warn" class="btn-c" (click)="cancel()">CANCELAR</button>
+                </mat-grid-tile>
+            </mat-grid-list>         
+        </form>
+    </mat-card>
+</div>

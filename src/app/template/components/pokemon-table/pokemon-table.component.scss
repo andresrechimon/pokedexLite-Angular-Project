@@ -1,0 +1,71 @@
+@import "../../../../assets/styles/variables.scss";
+
+table {
+    min-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+input {
+    color: $white !important;
+}
+
+.mat-form-field{
+    background-color: $red;
+}
+
+.row-i{
+    display: none;
+}
+
+.container{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mat-header-cell {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+
+//EVEN COLUMNS
+.mat-row:nth-child(even) {
+    background-color: $white;
+}
+
+//ODD COLUMNS
+.mat-row:nth-child(odd) {
+    background-color: $red;
+    & .mat-cell {
+        color: $white;
+    }
+}
+
+.mat-row:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 0 2px $yellow;
+}
+
+::ng-deep.mat-paginator {
+    width: 80%;
+    margin: auto;
+}
+
+.mat-form-field {
+    font-size: 13px;
+    width: 20%;
+
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+::ng-deep.mat-form-field-label {
+    color: $white !important;
+}
+::ng-deep.mat-form-field-underline {
+    background-color: $white !important;
+}
+

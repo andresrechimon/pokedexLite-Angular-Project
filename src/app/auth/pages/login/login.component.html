@@ -1,0 +1,27 @@
+<div fxLayoutAlign="center center" fxLayout="row" fxFlexFill class="main-div">
+    <mat-card  fxFlex="25" fxFlex.lt-sm="80">
+      <mat-toolbar fxLayoutAlign="center center">POKEDEX-LITE</mat-toolbar>
+      <form fxLayoutAlign="stretch" fxLayout="column">
+        <mat-form-field>
+          <input 
+          matInput 
+          name="username" 
+          [(ngModel)]="username"
+          placeholder="Entrenador Pokemon" 
+          autocomplete="off"
+          >
+        </mat-form-field>
+        <mat-form-field>
+          <input 
+          matInput 
+          name="password"
+          [(ngModel)]="password"
+          type="password" 
+          placeholder="Contraseña" 
+          autocomplete="off">
+        </mat-form-field>
+        <h5>¿Todavía no te registraste? ¿Qué esperás? Ingresa <a routerLink="/auth/register">AQUÍ</a>.</h5>
+        <button mat-raised-button type="submit" color="warn" (click)="login()">¡Atrápalos ya!</button>
+      </form>
+    </mat-card>
+  </div>

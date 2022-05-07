@@ -1,0 +1,26 @@
+@import "../../../../assets/styles/variables.scss";
+input {
+    color: $white !important;
+}
+
+.width{
+    width: 80%;
+}
+
+.btn-c{
+    background-color:white;
+}
+
+::ng-deep.mat-form-field-label {
+    color: $white !important;
+}
+::ng-deep.mat-form-field-underline {
+    background-color: $white !important;
+}
+
+@media (min-width: 414px) {
+    .lg {
+      width: 30%;
+      margin-left: 500px;
+    }
+}

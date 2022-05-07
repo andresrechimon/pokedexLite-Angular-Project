@@ -1,0 +1,24 @@
+<!--Header-->
+<app-header></app-header>
+<!--Header-->
+<mat-card class="card">
+
+  
+  <mat-card-header>
+    <img mat-card-avatar class="header-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1200px-Pok%C3%A9_Ball_icon.svg.png">
+    <mat-card-title style="color:#BD3736;">{{pokemon.name | uppercase}}</mat-card-title>
+    <mat-card-subtitle>Tipo: {{pokemonType}}</mat-card-subtitle>
+  </mat-card-header>
+
+  <img mat-card-image src="{{pokemonImg}}" alt="pokemon">
+
+  <mat-card-content>
+    <mat-chip-list>
+      <mat-chip color="primary" style="color: #BD3736;">Habilidades: {{pokemonAbi1}}, {{pokemonAbi2}} </mat-chip>
+    </mat-chip-list>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-stroked-button type="submit" color="warn" class="btn-c" (click)="editDelete()">EDITAR</button>
+    <button mat-stroked-button type="submit" color="warn" class="btn-c" (click)="editDelete()">BORRAR</button>
+  </mat-card-actions>
+</mat-card>
