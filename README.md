@@ -8,7 +8,7 @@
 - Directives such as *ngIf (try to eliminate all the pokemons).
 - Enviroment variables (baseURL).
 - Modules and components organized separatly, ordered alphabetic.
-- Some .sccs doesn't deserve a all file, so i keep 'em as inline styles.
+- In my opinion, some .sccs doesn't deserve a all file, so i keep 'em as inline styles.
 - Angular Material (it's not the one i handle best, but i find it interesting so I took the opportunity to practice).
 - SweetAlert2 (There are custom alert all over the app, being my fav the one you got by pressing "Atrápalos ya!" in the register page)
 
