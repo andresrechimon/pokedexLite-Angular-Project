@@ -17,5 +17,5 @@
 - The application is able to list the 2 most important aspects of a Pokemon: “Abilities” and “Evolutions”. By clicking in a specific pokemon a card will appear with his current evolution and two abilities (ability1 and ability2).
 - Since, as i said, PokeApi doesnt provide anything else than a GET petition, i made a CRUD where you cand create, edit or delete a pokemon.
 
-**Conclusion** 
-I sincerely enjoyed coding this app to the point that i started to like Pokemon. I don't know, maybe after this i'll watch the anime.
+**CONCLUSION** 
+- I sincerely enjoyed coding this app to the point that i started to like Pokemon. I don't know, maybe after this i'll watch the anime.
