@@ -18,6 +18,7 @@
 - The application is able to list all the Pokemons (name, type and a image of his evolution). First, i tried to use GlobalDatabase but since the service doesn't work, i used PokeAPI plus a static CRUD with data made by my own.
 - The application is able to list the 2 most important aspects of a Pokemon: “Abilities” and “Evolutions”. By clicking in a specific pokemon a card will appear with his current evolution and two abilities (ability1 and ability2).
 - Since, as i said, PokeApi doesn't provide anything else than a GET petition, i made a CRUD where you cand create, edit or delete a pokemon.
+- If you don't fill the requiered fields, the CREATE button will be disabled. Likewise, if you don't fill or actually edit the pokemon, the EDIT button also will be disabled.
 
 **CONCLUSION** 
 - I sincerely enjoyed coding this app to the point that i started to like Pokemon. I don't know, maybe after this i'll watch the anime.
