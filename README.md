@@ -11,6 +11,7 @@
 - In my opinion, some .sccs doesn't deserve a all file, so i keep 'em as inline styles.
 - Angular Material (it's not the one i handle best, but i find it interesting so I took the opportunity to practice).
 - SweetAlert2 (There are custom alerts all over the app, being my fav the one you got by pressing "Atrápalos ya!" in the register page).
+- The code is entirely in english and the application is fully responsive.
 
 **FUNCTIONS**
 - If no user has logged in, the application navigates to the login page (it has a minor validation if u don't input the correct user and pass).
